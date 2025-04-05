@@ -47,4 +47,53 @@ export default tseslint.config({
     ...react.configs['jsx-runtime'].rules,
   },
 })
-```
+
+
+🌟 Features
+🎲 Get a random joke in English from an external API
+
+🌐 Automatically translates the joke into Tamil
+
+⚡ Fast and lightweight build powered by Vite
+
+🎨 Simple and clean UI
+
+🧪 TypeScript for type safety
+
+🚀 Tech Stack
+Vite (for fast build and dev server)
+
+TypeScript
+
+Fetch API / Axios for API requests
+
+Translation API (e.g., Google Translate API, LibreTranslate, etc.)
+
+CSS / Tailwind / your preferred styling solution
+
+🛠️ Setup Instructions
+Clone the repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/joke-generator-app.git
+cd joke-generator-app
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run the development server:
+
+bash
+Copy
+Edit
+npm run dev
+(Optional) Set up your translation API key in a .env file:
+
+env
+Copy
+Edit
+VITE_TRANSLATE_API_KEY=your_api_key
