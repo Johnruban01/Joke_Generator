@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: max-content;
+  padding: 40px;
+  background-color: beige;
+  height: 200px;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey; 
+}
+
+button{
+  margin: 10px;
+  padding: 7px;
+  border: solid 2px black;
+  border-radius: 5px;
+  font-weight: 400;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.setup{
+  margin: 5px;
+  font-weight: 400;
+
+}
+
+.punch{
+  font-weight: 600;
+  margin-bottom: 10px;
+}
